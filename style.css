@@ -1,0 +1,115 @@
+/*
+  Text properties http://www.w3schools.com/css/css_reference.asp#text
+  Font properties http://www.w3schools.com/css/css_reference.asp#font */
+  
+p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #e2dfdf;
+    
+    padding: 20px;
+}
+html{
+    position: relative;
+    
+    padding:0px;
+    margin:0 ; 
+}
+a{
+    word-wrap: inherit;
+}
+body{
+    margin: 0px;
+}
+
+.standard{
+    float: left;
+    width: 44%;
+    margin: 0.5em;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #000000;
+    background-color: rgb(168, 164, 164);
+    padding: 20px;
+    
+}
+.banner{
+    padding: 0;
+    margin: 0;
+    background-image: url("Images/MainHeader.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    height: 25%;
+
+
+
+   
+}
+.banner-text{
+  text-align: left;
+  position:absolute;
+  color: rgb(255, 250, 250);
+  font-size: 30px;
+  top: 5%;
+  left: 25%
+}
+.menu{
+    float:right;
+    Background-color: #ebe161;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 50px
+}
+.menuLink {
+   
+    display: inline;
+   
+
+    padding:2px;
+   
+
+}
+.menuItems{
+    color: white;
+    font-size:30px;
+}
+.image1{
+    display: inline-block;
+}
+
+
+footer{
+    display: block;
+    margin: 0px;
+    padding: 50px;
+    clear: both;
+    
+    position: absolute;
+    bottom:-120;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #999999;
+    background-color: rgb(124, 122, 122);   
+    width: 100%;
+}
+.rowOne{
+    padding-top:5px;
+    margin-top:5px;
+    display: inline-block;
+ 
+}
+.rowTwo{
+    padding:20px;
+    margin:20px;
+}
+.imageList{
+    display:inline;
+}
+
+a:link    { color: rgb(50, 14, 151); }      /* unvisited link */
+a:visited { color: rgb(86, 76, 223); }      /* visited link */
+a:hover { color: rgb(5, 1, 5); }      /* mouse over link */
