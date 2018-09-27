@@ -1,10 +1,16 @@
 <html>
-    <head><title>Hello World</title>
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <link rel='icon' href='Images/favicon.ico' type='image/x-icon'/ > 
-    </head>
-<body>
+<head><title>Hello World</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
 
+  
+</head>
+
+<body>
+<head>
+    
+
+  
+</head>
 <div class="banner">
     <div class="banner-text">
         APDesign
@@ -21,17 +27,17 @@
     </div>
 
 <div class="rowOne">
-    <img class=Image1 src="Images/Main1.png" alt="header" align="left" ;>
+    
     <a> 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nec feugiat in fermentum posuere. Blandit cursus risus at ultrices. Sit amet nisl suscipit adipiscing bibendum. Vel facilisis volutpat est velit. Proin sagittis nisl rhoncus mattis rhoncus. Turpis massa sed elementum tempus egestas sed. In hendrerit gravida rutrum quisque non tellus. Semper feugiat nibh sed pulvinar proin. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Nisl tincidunt eget nullam non nisi. Ornare lectus sit amet est placerat. Vel facilisis volutpat est velit. Etiam erat velit scelerisque in dictum non. Egestas fringilla phasellus faucibus scelerisque eleifend. Malesuada fames ac turpis egestas maecenas pharetra. Pellentesque dignissim enim sit amet venenatis. Sodales ut etiam sit amet nisl purus in mollis nunc. Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Vel orci porta non pulvinar neque laoreet suspendisse.    </a>
 </div>
 <div class="rowOne">
-        <img class=Image1 src="Images/Imagebot1" alt="header" align="left" ;>
+       
         <a> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nec feugiat in fermentum posuere. Blandit cursus risus at ultrices. Sit amet nisl suscipit adipiscing bibendum. Vel facilisis volutpat est velit. Proin sagittis nisl rhoncus mattis rhoncus. Turpis massa sed elementum tempus egestas sed. In hendrerit gravida rutrum quisque non tellus. Semper feugiat nibh sed pulvinar proin. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Nisl tincidunt eget nullam non nisi. Ornare lectus sit amet est placerat. Vel facilisis volutpat est velit. Etiam erat velit scelerisque in dictum non. Egestas fringilla phasellus faucibus scelerisque eleifend. Malesuada fames ac turpis egestas maecenas pharetra. Pellentesque dignissim enim sit amet venenatis. Sodales ut etiam sit amet nisl purus in mollis nunc. Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Vel orci porta non pulvinar neque laoreet suspendisse.    </a>
     </div>
 <div class="rowOne">
-            <img class=Image1 src="Images/Imagebot2" alt="header" align="left" ;>
+           
             <a> 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nec feugiat in fermentum posuere. Blandit cursus risus at ultrices. Sit amet nisl suscipit adipiscing bibendum. Vel facilisis volutpat est velit. Proin sagittis nisl rhoncus mattis rhoncus. Turpis massa sed elementum tempus egestas sed. In hendrerit gravida rutrum quisque non tellus. Semper feugiat nibh sed pulvinar proin. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Nisl tincidunt eget nullam non nisi. Ornare lectus sit amet est placerat. Vel facilisis volutpat est velit. Etiam erat velit scelerisque in dictum non. Egestas fringilla phasellus faucibus scelerisque eleifend. Malesuada fames ac turpis egestas maecenas pharetra. Pellentesque dignissim enim sit amet venenatis. Sodales ut etiam sit amet nisl purus in mollis nunc. Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Vel orci porta non pulvinar neque laoreet suspendisse.    </a>
  </div>
