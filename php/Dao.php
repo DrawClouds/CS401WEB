@@ -1,14 +1,15 @@
 <?php
 
 class DAO {
-    private $servername = "localhost";
-    private $db = "users";
-    private $username = "root";
-    private $password = "";
+    private $servername = "us-cdbr-iron-east-01.cleardb.net";
+    private $db = "heroku_05684d6fdd64121";
+    private $username = "b53d76fc3ea9d7";
+    private $password = "1be6ec47";
 
     public function getConnection() { 
-        return new PDO("mysql:host=127.0.0.1;dbname={$this->db}", $this->username, $this->password);
+        return new PDO("mysql:host={$this->servername};dbname={$this->db}", $this->username, $this->password);
     }
+    
     
     public function saveUser($first_name, $last_name, $email, $pass) {
         $conn = $this->getConnection();
