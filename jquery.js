@@ -12,8 +12,6 @@ $(document).ready(function () {
 		$(tab_content).addClass('active');
 	});
 
-    $(function(){
-        $("input").prop('required',true);
-    });
+    
 
 });

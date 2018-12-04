@@ -6,9 +6,9 @@
      <link rel="shortcut icon" href="https://www.favicon.cc/logo3d/683049.png" type="image/png">
      <link rel="stylesheet" href="style.css">
      <title>1UP</title>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="jquery.js"></script>
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script type="text/javascript" src="jquery.js"></script>
+ </head>
 
 <html>
 <body>

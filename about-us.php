@@ -13,10 +13,16 @@
     <!-- BODY -->
     <div id="aboutBannerPic" class="text-center">
         <div id="mainBannerPicText">
-            <h1>About Us</h1>
+            <h1 class="title1" >DREAM TO UNDER ACHIEVE</h1>
         </div>
     </div>
     <br>
+    <div class="buffercolumn">
+            
+
+
+            
+        </div> 
     <div class="mainStory">
         <h2 class="topicHeader">How it all started</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et quod est munus, quod opus sapientiae? Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur. Duo Reges: constructio interrete. Venit ad extremum; Quonam, inquit, modo? Immo vero, inquit, ad beatissime vivendum parum est, ad beate vero satis. Nunc haec primum fortasse audientis servire debemus.

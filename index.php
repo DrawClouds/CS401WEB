@@ -11,39 +11,54 @@
         <?php include 'banner.php'?>
         
     <!-- Body -->
-    <div class="mainStory">
+    <div class="mainContainer">
+       <div class="buffercolumn">
+            <br>
 
-        <div class="storyRow">
+
+            
+        </div> 
+    <ul>
+        <li>
+    <div class="mainStory">
+    
+        
+        <div >
             <div id="mainBannerPicText">
-                <h1 id= "linkBox" >Need a mediocre website? </h1>
+                <h1 class="title1" >NEED A MEDIOCRE WEBSITE? </h1>
                 
             </div>
         </div>
-
-        <div >
-            <h2 id = "linkBox">Mediocre is my specialty!</h2>
+        
+        <div class="full" >
+            
             <div id="linkBox">
                 <a href="services.php">
-                    <p >Our Services</p>
+                    <p id="linktext">Our Services</p>
                 </a>
             </div>
             <div id="linkBox">
                 <a  href="contact.php">
-                    <p >Contact Us</p>
+                    <p id="linktext">Contact Us</p>
                 </a>
             </div>
             <div id="linkBox">
                 <a href="about-us.php">
-                    <p >About Us</p>
+                    <p id="linktext">About Us</p>
                 </a>
             </div>
+            <br>
 
         </div>
+        <br>
+    </div>
+    </li>
 
+    <br>
+
+    <li>
+    <div>
         <div class="storyRow">
-            <div >
-                <p> </p>
-            </div>
             <div>
                 <p>ANOTHER wasted domain!</p>
                 <p>Praeclare, inquit, facis, cum et eorum memoriam tenes, quorum uterque tibi testamento liberos suos commendavit, et puerum diligis. His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Rationis enim perfectio est virtus; Non quam nostram quidem, inquit Pomponius iocans;</p> 
@@ -53,7 +68,9 @@
         </div>
 
     </div>
-
+    </li>
+</ul>
+</div>
     <!-- Footer -->
     <footer class="foot">
     <?php include 'footer.php'?>

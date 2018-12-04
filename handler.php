@@ -23,8 +23,8 @@ if ($bad) {
   exit;
 }
 // Got here, means everything validated, and the comment will post.
-$_SESSION['messages'][] = "Thanks for posting!";
-$_SESSION['validated'] = 'good';
+//$_SESSION['messages'][] = "Thanks for posting!";
+//$_SESSION['validated'] = 'good';
 unset($_SESSION['presets']);
 require_once 'php/Dao.php';
 $dao = new Dao();

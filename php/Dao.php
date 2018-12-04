@@ -10,7 +10,6 @@ class DAO {
         return new PDO("mysql:host={$this->servername};dbname={$this->db}", $this->username, $this->password);
     }
     
-    
     public function saveUser($first_name, $last_name, $email, $pass) {
         $conn = $this->getConnection();
         $saveQuery = 

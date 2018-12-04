@@ -18,7 +18,7 @@ $comments = $dao->getComments();
 
     <div class="text-center">
         <div id="mainBannerPicText">
-            <h1>Leave a comment about these muffins</h1>
+            <h1 class="title1">LEAVE A COMMENT ABOUT THE NEW MUFFINS RECIPE</h1>
         </div>
     </div>
 
@@ -63,7 +63,7 @@ $comments = $dao->getComments();
     <footer class="foot">
             <?php include 'footer.php'?>
             </footer>
-  <
+  
 
   </div>  
 

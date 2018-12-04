@@ -1,19 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
 
  
-  
   .message {
     color: white;
     padding: 10px 10;
     margin-bottom: 5px;
     width: 500px;
   }
+  .buffercolumn{
+      float: left;
+      height:400px;
+      width:20%;
+      
+  }
+  .buffercolumnR{
+    float: right;
+    height:400px;
+    width:20%;
+  }
   .commentfield{
       width:300px;
       height:200px;
   }
-  
-
+  .storyRow{
+      overflow:hidden;
+  }
+  .full{
+      float:center;
+      height:300px;
+      width:1500px;
+   /* height: 100%;
+    border: 1px solid #c3c3c3;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;*/ 
+    
+    align-content: center;
+  }
+ .title1{
+      font-size: 30px;
+      color: white;
+  }
   
   .good {
     background-color: #228B22;
@@ -87,13 +113,26 @@
     padding: 16px;
     text-decoration: none;
 }
-
+.mainContainer{
+    width:97%;
+    display:table;
+    -webkit-align-content: center;
+    align-content: center;
+}
+.mainStory{
+    width: 75%;
+  
+    -webkit-align-content: center;
+    align-content: center;
+   
+    
+}
 #loginItem { float: right;}
 
 /*  BODY */
 #mainBannerPic {
     height: 300px;
-    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("images/computerPanoEdit.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("images/computerPano.jpg");
     background-position: right bottom;
 }
 
@@ -168,7 +207,7 @@ p {
 
 
 
-#banner a:hover{
+#banne a:hover{
      color: rgb(129, 105, 105); 
     transition: .3s ease-in;
     color: black;
@@ -189,12 +228,17 @@ ul {
 .about {
     margin: 5%;
 }
+#linktext{
+    font-size: 30px;
+    color:white;
 
+}
 #linkBox{
-   
+    background-color: rgb(133, 125, 125);
     background-size: 100% 100%;
     height: 250px;
-    width: 250px;
+    width: 300px;
+    align-content: center;
     float: left;
     margin: 2%;
 }
