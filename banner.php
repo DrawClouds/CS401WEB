@@ -25,7 +25,7 @@
                 <a id="bannerItemText" href="about-us.php">About Us</a>
             </li>
             <li id="bannerItem">
-                <a id="bannerItemText" href="contact.php">Comment</a>
+                <a id="bannerItemText" href="contact.php">Contact</a>
             </li>
             <li id="loginItem">
                 <?php

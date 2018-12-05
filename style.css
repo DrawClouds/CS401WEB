@@ -1,5 +1,46 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
 
+.aboutus{
+
+    overflow:hidden;
+}
+.message{
+ 
+    text-align: center;
+    font-size:30px;
+
+   background-color:rgb(115, 116, 115);
+   
+    margin:0% 0 900px 25%;
+    border-radius: 25px;
+}
+
+.contactus{
+    margin:0 0 0 20%;
+}
+  #subject{
+    width: 500px;
+    margin: 10px 5% 5px 20%;
+  }
+  .submit{
+    margin: 5px 5% 30% 20%;
+  }
+    textarea{
+        
+            width: 60%;
+            height: 150px;
+            padding: 20px 20px  ;
+            margin: 5px 5% 5% 20%;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            resize: none;
+          
+    }
+  .pagesize{
+      min-height:100%;
+  }
  
   .message {
     color: white;
@@ -38,14 +79,15 @@
   }
  .title1{
       font-size: 30px;
-      color: white;
+      color: rgb(255, 255, 255);
+    
   }
   
   .good {
     background-color: #228B22;
   }
   td{
-      width:30px
+      width:50px
   }
   table, tbody, th, td { 
      border: 1px solid black; 
@@ -80,6 +122,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    min-height: 100%;
 }
 
 .container {
@@ -92,6 +135,7 @@
 /*  BANNER */
 
 #banner{
+    min-width:100%;
     position: relative;
     height: 75px;
     width: 100%;
@@ -99,10 +143,11 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #999999; 
+    background-color: #5e4bc960; 
  }
 
 #bannerItem {
+    
     float: left;
 }
 
@@ -110,10 +155,14 @@
     display: block;
     color: white;
     text-align: center;
+    margin:3px;
     padding: 16px;
     text-decoration: none;
+    background-color: #7a798081; 
+    border-radius: 25px
 }
 .mainContainer{
+    min-height: 100%;
     width:97%;
     display:table;
     -webkit-align-content: center;
@@ -131,8 +180,9 @@
 
 /*  BODY */
 #mainBannerPic {
+    min-width:100%;
     height: 300px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("images/computerPano.jpg");
+    background-image: linear-gradient(rgba(148, 148, 148, 0.5),rgba(148, 148, 148, 0.5)), url("images/computerPano.jpg");
     background-position: right bottom;
 }
 
@@ -175,7 +225,8 @@
 
 /*FOOTER */
 .foot { 
-    position:relative;
+    margin: 50% 0 0 0;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -234,13 +285,15 @@ ul {
 
 }
 #linkBox{
-    background-color: rgb(133, 125, 125);
+    background-color: rgb(126, 121, 197);
     background-size: 100% 100%;
     height: 250px;
     width: 300px;
     align-content: center;
     float: left;
     margin: 2%;
+  
+    border-radius: 50%
 }
 
 

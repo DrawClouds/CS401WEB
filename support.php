@@ -9,19 +9,21 @@
     <!-- BANNER -->
     <?php include 'banner.php'?>
     <!-- Body -->
-    <div class="container">
+    <div>
+    <div class="message">
         
         <?php
       
         echo $_SESSION['message'];?>
     </div>
+</div>
 
     <!-- Footer -->
      <!-- Footer -->
-     <footer class="foot">
+     
+</body>
+<footer class="foot">
     <?php include 'footer.php'?>
     </footer>
-</body>
-
 
 </html>

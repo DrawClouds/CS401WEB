@@ -25,7 +25,7 @@
         </div> 
     <div class="mainStory">
         <h2 class="topicHeader">How it all started</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et quod est munus, quod opus sapientiae? Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur. Duo Reges: constructio interrete. Venit ad extremum; Quonam, inquit, modo? Immo vero, inquit, ad beatissime vivendum parum est, ad beate vero satis. Nunc haec primum fortasse audientis servire debemus.
+        <p class="aboutus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et quod est munus, quod opus sapientiae? Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur. Duo Reges: constructio interrete. Venit ad extremum; Quonam, inquit, modo? Immo vero, inquit, ad beatissime vivendum parum est, ad beate vero satis. Nunc haec primum fortasse audientis servire debemus.
 
 Praeclare, inquit, facis, cum et eorum memoriam tenes, quorum uterque tibi testamento liberos suos commendavit, et puerum diligis. His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Rationis enim perfectio est virtus; Non quam nostram quidem, inquit Pomponius iocans;
 

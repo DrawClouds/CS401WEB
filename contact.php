@@ -13,61 +13,45 @@ $comments = $dao->getComments();
     <?php include 'banner.php'?>
 
     <!-- BODY -->
+    <div class="pagesize">
 
-
-
+    
     <div class="text-center">
         <div id="mainBannerPicText">
-            <h1 class="title1">LEAVE A COMMENT ABOUT THE NEW MUFFINS RECIPE</h1>
+            <h2 class="title1">CONTACT US</h2>
         </div>
     </div>
 
 
-<div>
-  <div class= "commentspage">
-      <div class= "leftbuffer"></div>
-    <img class=pokey src="https://external-preview.redd.it/7vqQx6MAyvfflICLsZZRGigGO49HNp9eBpW4_ayNHJQ.jpg?auto=webp&s=6f8f66c531b79877239104df7f7737c020cb1e25" alt="muffins">
-    
-    <div class= "commentsContainer">
-    <h2 id="subtitle">Leave a Comment</h2>
-<?php if (isset($_SESSION['messages'])) {
-  foreach ($_SESSION['messages'] as $message) {?>
-      <div class="message <?php echo isset($_SESSION['validated']) ? $_SESSION['validated'] : '';?>"><?php
-      echo $message; ?></div>
-<?php  }
- unset($_SESSION['messages']);
-?> </div>
-<?php } ?>
 
-    <form method="post" action="handler.php" enctype="multipart/form-data">
-			Name:<br>
-      <input type="text" name="name" value="<?php echo isset($_SESSION['presets']['name']) ? $_SESSION['presets']['name'] : ''; ?>"><br>
-			Comment:<br>
-			<input  maxlength="250" rows="5" type="textarea"  size="35" name="comment" value="<?php echo isset($_SESSION['presets']['comment']) ? $_SESSION['presets']['comment'] : ''; ?>">
-      
-      <input type="submit" value="Submit">
-    </form>
-    
+    <div id="contact">
+<div class ="formback">
+    <h1 class="contactus">Submit form below to inquire about services or prices</h1>
+
+                    <form class="contactform" method="POST">
+                        <input type="text" class="input" id="subject" name="email1" autocomplete="off" placeholder="Subject">
+                        <br>
+                      
+                        <textarea name="comment" form="usrform">Enter text here...</textarea>
+                      
+ </div>                     
+                        <input type="submit" class="submit" value="Submit">
+                    </form>
+    </div>
 
 
-    <table class = commenttable>
-<?php
-    foreach ($comments as $comment) {
-      echo "</td><td>" . htmlentities($comment['name']) . "</td><td>{$comment['comment']}</td><td><a href='delete.php?id={$comment['id']}'/>X</a></td></tr>";
-    }
-?>
 
-</div>
-    </table></div><div class= "rightbuffer"></div>
+    <div>
 <!-- Footer -->
+   
     <footer class="foot">
             <?php include 'footer.php'?>
-            </footer>
-  
+    </footer>
 
   </div>  
-
-    
+ 
+  
+</div>
 </body>
 
 
